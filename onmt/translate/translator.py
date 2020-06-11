@@ -219,6 +219,7 @@ class Translator(object):
             out_file=None,
             report_align=False,
             report_score=True,
+            log_probs_out_file=None,
             logger=None):
         """Alternate constructor.
 
@@ -266,6 +267,7 @@ class Translator(object):
             copy_attn=model_opt.copy_attn,
             global_scorer=global_scorer,
             out_file=out_file,
+            log_probs_out_file=log_probs_out_file,
             report_align=report_align,
             report_score=report_score,
             logger=logger,
